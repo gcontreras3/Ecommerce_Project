@@ -5,3 +5,21 @@ header {
     color: white;
     background-color: black;
 }
+.flexbox-container {
+    display: flex;
+}
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: solid black;
+    background-color: grey;
+}
+.flexbox-container-1 {
+    min-height: 100px;
+}
+.flexbox-container-2 {
+    min-height: 200px;
+}
+.flexbox-container-3 {
+    min-height: 300px;
+}
