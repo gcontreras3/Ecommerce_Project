@@ -42,6 +42,9 @@ section{
 .btn:hover{
     background:var(--pink);
 }
+#shop-bttn{
+    color:black;
+}
 #shop-btn{
     color:black;
 }
@@ -175,7 +178,7 @@ header .navbar a:hover{
     background-color: grey;
 }
 #hero-img {
-    position: center;
+    /* position: center; */
     width: 1600px;
     height: 500px;
     border: solid 30px black;
@@ -183,7 +186,7 @@ header .navbar a:hover{
 button {
     width: 100px;
     height: 100px;
-    position: center;
+    /* position: center; */
 
 }
 /* Icons start here */
@@ -290,7 +293,7 @@ form {
       border: .3rem solid rgb(0,0,0,.1);
   }
   #form-box input{
-      position: center;
+      /* position: center; */
   }
 
 
