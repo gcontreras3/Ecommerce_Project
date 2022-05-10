@@ -33,7 +33,7 @@ section{
     display: inline-block;
     margin-top: 1rem;
     border-radius:5rem;
-    background:#555;
+    background:#FFD9F5;
     color:#fff;
     padding:.9rem 3.5rem;
     cursor: pointer;
@@ -42,14 +42,14 @@ section{
 .btn:hover{
     background:var(--pink);
 }
-/* body {
-    background-color: #80CBFB;
-} */
+#shop-btn{
+    color:black;
+}
 header {
     position: fixed;
     top:0; left:0; right:0;
     color: white;
-    background-color: black;
+    background-color: #80CBFB;
     padding:2rem 9%;
     display: flex;
     align-items: center;
@@ -92,7 +92,10 @@ header .fa-bars{
     display:flex;
     align-items: center;
     min-height: 100vh;
-    background:url(img/hero-img.png) no-repeat;
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url(img/hero-img.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -101,17 +104,17 @@ header .fa-bars{
 }
 .home .content h3{
     font-size:6rem;
-    color: #333;
+    color: white;
 }
 .home .content span{
     font-size:3.5rem;
-    color:var(--pink);
+    color:white;
     padding:1rem 0;
     line-height: 1.5;
 }
 .home .content p{
     font-size:1.5rem;
-    color:#999;
+    color:white;
     padding:1rem 0;
     line-height: 1.5;
 }
@@ -406,7 +409,7 @@ input[type=submit] {
     header .navbar a{
         margin:1.5rem;
         padding:1.5rem;
-        background: #fff;
+        background: #FFD9F5;
         border:.1rem solid rgba(0,0,0,.1);
         display: block;
     }
